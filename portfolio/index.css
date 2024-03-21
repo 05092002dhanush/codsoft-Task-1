@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    max-width: 100%;
+}
+body{
+    height: 500vh;
+    width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: rgba(237, 194, 115, 0.457);
+
+}
+.logo{
+    height: 150px;
+    width: 200px;
+}
+.logo img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.firstpage .st{
+    background: transparent;
+    color: #655c5c;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 35%;
+    margin-top: 5%;
+
+}
+.firstpage .nd{
+    width: 800px;
+    height: 200px;
+    background-color: transparent;
+    color: rgb(23, 25, 27);
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-left: 32%;
+}
+.scroll{
+    margin-left: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transform: rotate(90deg);
+    left: 5px;
+    position: absolute;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background: #f6f5f886; 
+    display: flex;
+   
+}
+.about1{
+    /* border: 3px solid blue; */
+    width: 750px;
+}
+.about .about1 h1{
+   
+    background:transparent;
+    font-size: 40px;
+    font-style: inherit;
+    color: #655c5c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-left: 60%;
+    
+}
+.about .about1 p{
+    background-color: transparent;
+    font-size: 20px;
+    color: #0a0a00;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    height: 30%;
+    width: 50%;
+    padding: 40px 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+} 
+.about2{
+    height: 550px;
+    width: 450px;
+   
+}
+.about .about2 img{
+     height: 450px;
+     width: 360px;
+     padding: 70px 40px;
+     background: transparent;
+     /* border: 5px solid #167bbe;  */
+     margin-top: 100px;  
+}
+.Skills{
+    height: 100vh;
+    width: 100%;
+    background: rgba(21, 135, 242, 0.811);
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 40%;
+    height: 48px;
+    width: 400px;
+    margin-top: 5px;
+
+    /* border: 2px solid white; */
+}
+.skills1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.techSkills{
+    height: 530px;
+    width: 500px;
+    /* border: 2px dotted #000; */
+}
+.techSkills h1{
+    font-size: 25px;
+    color: #0a0a00;
+    padding: 20px 20px; 
+    margin-left: 20px; 
+}
+.html{
+    font-size: 20px;
+    color: red;
+    padding: 20px 20px;
+}
+.css{
+    font-size: 20px;
+    color: red;
+    padding: 20px 20px;
+}
+.js{
+    font-size: 20px;
+    color: red;
+    padding: 20px 20px;
+}
+.c{
+    font-size: 20px;
+    color: red;
+    padding: 20px 20px;
+}
+.java{
+    font-size: 20px;
+    color: red;
+    padding: 20px 20px;
+}
+.profSkills{
+    height: 530px;
+    width: 500px;
+    margin-top: 5px;
+    /* border: 2px dotted #000;    */
+}
+.profSkills h1{
+    font-size: 25px;
+    color: #0a0a00;
+    padding: 20px 20px; 
+    margin-left: 15px; 
+    margin-top: 5px;
+}
+#prof1{
+    font-size: 20px;
+    color: red;
+    padding: 20px 20px;
+}
+.project{
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    color: #0a0a00;
+    margin-left: 40%;
+}
+.projcont{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    /* border: 2px solid blue; */
+}
+.proj1 img{
+    border: 2px solid orange;
+    height: 200px;
+    width: 320px;
+    margin-left: 20px;
+}
+.proj1 h3{
+    font-size: 25px;
+    color: #0a0a00;
+    padding: 20px 80px;
+    border: 4px dotted pink;
+}
+.proj2{
+    height: 500px;
+    width: 400px;
+    /* border: 2px solid blue; */
+    margin-top: 60px;
+}
+.proj2 img{
+    border: 2px solid orange;
+    height: 200px;
+    width: 320px;
+    margin-left: 55px;
+}
+.proj2 h3{
+    font-size: 25px;
+    color: #0a0a00;
+    padding: 20px 80px;
+    border: 4px dotted pink;
+    margin-left: 40px;
+}
+.proj3 img{
+    border: 2px solid orange;
+    height: 200px;
+    width: 320px;
+    margin-left: 80px;
+}
+.proj3 h3{
+    font-size: 25px;
+    color: #0a0a00;
+    padding: 20px 80px;
+    /* border: 4px dotted pink; */
+    margin-left: 40px;
+}
+.contact{
+     background-color: #0a0a00;
+     height: 100vh;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+}
+.contact h1{
+    color: #fff;
+}
+.Details{
+    margin-left: 20px;
+    /* border: 2px solid red; */
+  
+}
+.Details h2{
+    /* border: 2px solid orange; */
+    margin-left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.Details p{
+    /* border: 2px solid pink; */
+    font-size: 20px;
+    width: 500px;
+    color: #fff;
+}
+.info{
+    /* border: 2px solid green; */
+    margin-left: 20px ;
+    margin-top: 0px;
+    font-size: 20px;
+    color: #fff;
+}
+.info1{
+    /* border: 2px solid green; */
+    margin-left: 20px ;
+    margin-top: 0px;
+    font-size: 20px;
+    color: #fff;
+
+}
+.links{
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 50px;
+    width: 200px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+.fa-google,.fa-instagram,.fa-facebook-f,.fa-whatsapp,.fa-twitter{
+    color: #fff;
+}
+
+.message{
+    margin-left: 200px;
+}
+.message h2{
+    font-size: 30px;
+    margin-left: 40px;
+}
+input{
+    height: 50px;
+    width: 400px;
+    margin-left: 50px;
+    background: transparent;
+    border:2px solid #fff;
+}
+input ::placeholder{
+    color: #fff;
+    font-size: 30px;
+}
+button{
+    height: 30px ;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+    color: #da0e0e;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+}
+.rights{
+    font-size: 15px;
+    margin-left: 450px;
+    color: #fff;
+}
+.ma{
+    margin-top: 100px;
+}
